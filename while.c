@@ -1,12 +1,12 @@
-#include <stdio.h>
-#include <stdlib.h>
+#include<stdio.h>
+#include<stdlib.h>
 
 int main()
 {
-	int i =0;
-	while (i < 100){
-		printf("Aguarde ...\n");
-		i = i+1; // i++
+	int soma=0, valor;
+	while(soma<=100){
+		printf("Digite um valor: \n");
+		scanf("%d", &valor);
+		soma = soma + valor;
 	}
-	
 }
